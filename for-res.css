@@ -147,7 +147,7 @@ input[type="button"]:hover {
     background-size: cover;
   }
   #msg {
-    right: -10%;
+    right: -5%;
     padding: 10px;
   }
 }
