@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>YaarMe</title>
+    <link href="for-res.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Play"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div class="forget">
+      <form>
+        <h2 align="center" style="color: #fff;">Forget password</h2>
+        <h5 style="font-size: 14px; color: yellow; text-align: center;">
+          Enter your email address, we will send a link to your email to reset
+          your password.
+        </h5>
+        <input
+          type="text"
+          name="username"
+          placeholder="Enter your email"
+        /><br /><br />
+        <input
+          type="button"
+          value="Send"
+          onclick="myForgetFunction()"
+        /><br /><br />
+        <a href="index.html" style="text-decoration: none;"
+          >Go back to Home page</a
+        ><br /><br />
+        <div id="msg">Link sent to your email adress successfully!!</div>
+        <script src="app.js"></script>
+      </form>
+    </div>
+  </body>
+</html>
