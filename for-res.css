@@ -72,13 +72,12 @@ input[type="button"]:hover {
 }
 ::placeholder {
   color: aliceblue;
-  opacity: 0.8; 
+  opacity: 0.8;
 }
 
 #msg {
   visibility: hidden;
   min-width: 250px;
-
   background-color: yellow;
   color: #000;
   text-align: center;
@@ -146,5 +145,8 @@ input[type="button"]:hover {
   body {
     background: url("Images/bg-02.jpg");
     background-size: cover;
+  }
+  #msg {
+    right: 20%;
   }
 }
